@@ -283,6 +283,7 @@ export type CreateQuest = {
   start_time: number;
   expiry: number | null;
   disabled: boolean;
+  mandatory_domain: string | null;
   category: string;
   logo: string;
   rewards_img: string;
@@ -299,6 +300,7 @@ export type UpdateQuest = {
   start_time?: number;
   expiry?: number | null;
   disabled?: boolean;
+  mandatory_domain:  string | null;
   category?: string;
   logo?: string;
   rewards_img?: string;
