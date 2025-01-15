@@ -42,6 +42,7 @@ export const questDefaultInput = {
     img_card: "",
     title_card: "",
     issuer: "",
+    mandatory_domain: "none"
 };
 
 export const nft_uri = {
